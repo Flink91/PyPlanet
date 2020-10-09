@@ -1,5 +1,5 @@
-<quad pos="150 -50" z-index="100" size="15 15" image="http://maniacdn.net//toffe/pyplanet/assets/logo/pyplanet-xs.png"
-      autoscale="0" keepratio="Clip" halign="center" valign="center" opacity="0.4" url="http://pypla.net/" />
+<quad pos="150 -70" z-index="100" size="15 7" image="https://flinkblog.de/FlinkLogoRot150x71.png"
+      autoscale="0" keepratio="Clip" halign="center" valign="center" opacity="0.4" url="https://www.youtube.com/c/FlinkTM" />
 
 {% if game == 'tm' %}
   <label pos="0 -86.5" z-index="100" size="52 5" text="Report issue / suggestion" style="TextButtonNav" scale="0.6"

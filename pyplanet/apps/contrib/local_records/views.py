@@ -13,7 +13,7 @@ class LocalRecordsWidget(TimesWidgetView):
 	widget_y = 56.5
 	z_index = 30
 	top_entries = 5
-	title = 'Local Records'
+	title = 'Ice Queens'
 
 	def __init__(self, app):
 		super().__init__(self)
@@ -84,11 +84,11 @@ class LocalRecordsWidget(TimesWidgetView):
 				record_player = await record.get_related('player')
 				list_record = dict()
 				list_record['index'] = index
-				list_record['color'] = '$fff'
+				list_record['color'] = '$003'
 				if index <= self.top_entries:
 					list_record['color'] = '$ff0'
 				if index == player_index:
-					list_record['color'] = '$0f3'
+					list_record['color'] = '$ccf'
 				list_record['nickname'] = record_player.nickname
 				list_record['score'] = times.format_time(int(record.score))
 				if index == self.top_entries:
