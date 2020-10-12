@@ -1,7 +1,7 @@
 <quad pos="150 -84" z-index="100" size="15 7.1" image="https://flinkblog.de/FlinkLogoRot150x71.png"
       autoscale="0" keepratio="Clip" halign="center" valign="center" opacity="0.4" url="https://www.youtube.com/c/FlinkTM" />
 
-<quad pos="150 50" z-index="100" size="27.8 18.2" image="https://flinkblog.de/penguins.png"
+<quad pos="150 62" z-index="100" size="27.8 18.2" image="https://flinkblog.de/penguins.png"
       autoscale="0" keepratio="Clip" halign="center" valign="center" opacity="0.9" />
 
 {% if game == 'tm' %}
